@@ -2,7 +2,7 @@
 using Azure.Storage.Queues.Models;
 
 string connectionString = "UseDevelopmentStorage=true";
-string queueName = "email-queue";
+string queueName = "emails";
 
 QueueClient queueClient = new QueueClient(connectionString, queueName);
 
